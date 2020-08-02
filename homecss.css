@@ -1,0 +1,60 @@
+﻿body, html{
+	
+	background-image:url('image/ggg.jpg');
+	background-repeat:no-repeat;
+    height:100%;
+	width:100%;
+	background-color:black;
+	
+	
+}
+/*hero-image*/
+.hero-image{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.7)),url('../../Desktop/images/lion.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+    height:100%;
+    widht:50%;
+    
+    
+}
+.hero-text{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-align:center;;
+	height:100%;
+	left:30%;
+	color:white;;
+} 
+.sidenav{
+	background-image:url('image/sav2.jpg');
+	background-repeat:no-repeat;
+	display:none;
+	height:100%;
+	width:250px;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:white;
+	overflow-x:hidden;
+	padding-top:60px;
+	
+}  
+
+span{
+    color:white;
+}
+.sidenav a{
+
+      padding: 25px 28px 8px 32px;
+      text-decoration:none;
+      font-size:25px;
+      color:gray;
+      display:block;
+
+}
+.sidenav a:hover{
+	color:black;
+}
